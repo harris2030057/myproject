@@ -1,2 +1,2 @@
-# myproject2017
+# myproject
 This is my homework
