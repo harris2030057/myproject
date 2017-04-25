@@ -8,7 +8,10 @@ public class Car {
 	int id;
 	int status;
 	float milage;
-
+	
+public Car(String brand, String name){
+	
+}
 	public Car(String brand, int cc, String name, String type) {
 		this.brand = brand;
 		this.cc = cc;
