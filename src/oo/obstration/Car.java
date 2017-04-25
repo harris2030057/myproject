@@ -15,6 +15,7 @@ public class Car {
 		this.name = name;
 		this.type = type;
 		int status;
+int s ;
 
 	}
  public void maintain(){
