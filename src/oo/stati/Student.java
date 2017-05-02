@@ -9,6 +9,10 @@ public class Student {
 		System.out.println("STATIC!");
 		System.out.println("english");
 		System.out.println("pass");
+		
+	}
+	public Student(){
+		
 	}
 
 	public Student(int english, int math, int chinese) {
