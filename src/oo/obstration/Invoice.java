@@ -3,6 +3,8 @@ package oo.obstration;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import oo.stati.Student;
+
 public class Invoice {
 
 	public static void main(String[] args) {
@@ -22,6 +24,11 @@ public class Invoice {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("請使用者輸入發票存根(長度不限)，判斷末三碼是否中獎：");
 		String ss = scanner.nextLine();
+		System.out.println(a);
+		String deta = a.get(3);
+		// int n = (int)a.get(4);
+		Student stu = new Student();
+		
 	}
 
 }
