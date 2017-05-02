@@ -10,6 +10,13 @@ public class Car {
 	float milage;
 	
 public Car(String brand, String name){
+	this.brand = brand;
+	this.cc = cc;
+	this.name = name;
+	this.type = type;
+	this.id = id;
+	this.status = status;
+	this.milage = milage;
 	
 }
 	public Car(String brand, int cc, String name, String type) {
