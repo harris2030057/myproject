@@ -5,18 +5,19 @@ public class Student {
 	int math;
 	int chinese;
 	static int pass = 60;
-	static{
+	static {
 		System.out.println("STATIC!");
 		System.out.println("english");
 		System.out.println("pass");
-		
+
 	}
-	public Student(){
-		
+
+	public Student() {
+
 	}
 
 	public Student(int english, int math, int chinese) {
-		
+
 		this.english = english;
 		this.math = math;
 		this.chinese = chinese;
@@ -35,4 +36,7 @@ public class Student {
 		}
 	}
 
+	public String toString() {
+		return "english:" + english + "/t" + "chinese:" + chinese + "/t" + "math:" + math + "/t";
+	}
 }
